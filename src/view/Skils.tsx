@@ -7,6 +7,8 @@ import sass from "../img/stack-icon/sass-icon.png";
 import nodejs from "../img/stack-icon/nodejs-icon.png";
 import express from "../img/stack-icon/express-icon.png";
 import mysql from "../img/stack-icon/mysql-icon.png";
+import git from "../img/stack-icon/git-icon.png";
+import aws from "../img/stack-icon/aws-icon.png";
 
 function Skils() {
     return (
@@ -64,11 +66,11 @@ function Skils() {
                     <div className="skils-box-title">Tools</div>
                     <div className="skils-box-content-box">
                         <div className="skils-box-content">
-                            <img className="skils-box-stack-icon" src={react} alt="javascript" />
+                            <img className="skils-box-stack-icon" src={git} alt="javascript" />
                             <div className="skils-box-stack-info">Git</div>
                         </div>
                         <div className="skils-box-content">
-                            <img className="skils-box-stack-icon" src={sass} alt="javascript" />
+                            <img className="skils-box-stack-icon" src={aws} alt="javascript" />
                             <div className="skils-box-stack-info">AWS</div>
                             <span className="skils-box-stack-info-details">(EC2, RDS, S3를 이용한 배포 경험, PipeLine을 이용한 간단한 배포 자동화 경험)</span>
                         </div>
