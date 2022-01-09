@@ -1,3 +1,58 @@
+@import "../mixin";
+
 .header-container {
-    border: 1px solid;
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 2% 15%;
+    font-size: 25px;
+}
+
+.name-box {
+    min-width: fit-content;
+    margin-right: 40px;
+    font-size: 30px;
+}
+
+.fa-bars {
+    font-size: 35px;
+}
+
+.navigation-container {
+    display: none;
+}
+
+@include tablet {
+    .header-container {
+        font-size: 20px;
+    }
+
+    .navigation-container {
+        min-width: 20em;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .fa-bars {
+        display: none;
+    }
+}
+
+@include desktop {
+    .header-container {
+        font-size: 20px;
+    }
+
+    .navigation-container {
+        min-width: 20em;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .fa-bars {
+        display: none;
+    }
 }

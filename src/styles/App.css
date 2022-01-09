@@ -1,4 +1,179 @@
+.page-title {
+  color: #dd4a68;
+  font-size: 50px;
+}
+
+.page-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-shadow: gray 5px 5px 5px;
+}
+
 .header-container {
-  border: 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 2% 15%;
+  font-size: 25px;
+}
+
+.name-box {
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  margin-right: 40px;
+  font-size: 30px;
+}
+
+.fa-bars {
+  font-size: 35px;
+}
+
+.navigation-container {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header-container {
+    font-size: 20px;
+  }
+  .navigation-container {
+    min-width: 20em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .fa-bars {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-container {
+    font-size: 20px;
+  }
+  .navigation-container {
+    min-width: 20em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .fa-bars {
+    display: none;
+  }
+}
+
+.main-catchphrase {
+  word-break: keep-all;
+  width: 50%;
+  font-size: 5.5em;
+  line-height: 1.5em;
+}
+
+.page-about {
+  background-color: #373a40;
+}
+
+.about-catchphrase {
+  width: 70%;
+  font-size: 35px;
+  word-break: keep-all;
+}
+
+.profile-img {
+  border: solid 5px white;
+  border-radius: 15px;
+  -webkit-box-shadow: gray 15px 15px 15px;
+          box-shadow: gray 15px 15px 15px;
+}
+
+.page-skils {
+  background-color: #9fa0a3;
+}
+
+.skils-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.skils-box-title {
+  font-size: 25px;
+  background-color: #373a40;
+  padding: 8px 15px;
+}
+
+.skils-box-content-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 15px;
+  background-color: #eeeeee;
+}
+
+.skils-box-content {
+  margin-right: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skils-box-stack-icon {
+  margin-right: 15px;
+  max-height: 80px;
+}
+
+.skils-box-stack-info {
+  color: black;
+  font-size: 20px;
+  text-shadow: none;
+}
+
+.skils-box-stack-info-details {
+  color: black;
+  margin-left: 15px;
+}
+
+body {
+  background-color: #dd4a68;
+  color: white;
+}
+
+section {
+  padding: 5.5vw;
 }
 /*# sourceMappingURL=App.css.map */

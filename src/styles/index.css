@@ -395,4 +395,26 @@ td,
 th {
   padding: 0;
 }
+
+@font-face {
+  font-family: "NanumSquare";
+  font-weight: 200;
+  src: url("../fonts/NanumSquareL.ttf") format("truetype"), url("../fonts/NanumSquareL.woff") format("woff"), url("../fonts/NanumSquareL.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "NanumSquare";
+  font-weight: 300;
+  src: url("../fonts/NanumSquareR.ttf") format("truetype"), url("../fonts/NanumSquareR.woff") format("woff"), url("../fonts/NanumSquareR.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "NanumSquare";
+  font-weight: 400;
+  src: url("../fonts/NanumSquareB.ttf") format("truetype"), url("../fonts/NanumSquareB.woff") format("woff"), url("../fonts/NanumSquareB.woff2") format("woff2");
+}
+
+* {
+  font-family: "NanumSquare";
+}
 /*# sourceMappingURL=index.css.map */

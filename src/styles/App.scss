@@ -1,1 +1,14 @@
+@import "./components/PageStyle";
 @import "./components/Header";
+@import "./components/Home";
+@import "./components/About";
+@import "./components/Skils";
+
+body {
+    background-color: #dd4a68;
+    color: white;
+}
+
+section {
+    padding: 5.5vw;
+}
