@@ -2,14 +2,56 @@
     background-color: #373a40;
 }
 
+.page-container-about {
+    display: flex;
+    justify-content: space-between;
+}
+
 .about-catchphrase {
-    width: 70%;
-    font-size: 35px;
+    width: 60%;
+    font-size: 30px;
     word-break: keep-all;
+    line-height: 40px;
+    margin-right: 30px;
 }
 
 .profile-img {
     border: solid 5px white;
     border-radius: 15px;
     box-shadow: gray 15px 15px 15px;
+    max-height: 500px;
+}
+
+@include mobile {
+    .page-container-about {
+        flex-direction: column;
+    }
+
+    .about-catchphrase {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .profile-img {
+        margin: 30px auto;
+        max-height: none;
+        width: 200px;
+    }
+}
+
+@include tablet {
+    .page-container-about {
+        flex-direction: column;
+    }
+
+    .about-catchphrase {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .profile-img {
+        margin: 30px auto;
+        max-height: none;
+        width: 300px;
+    }
 }

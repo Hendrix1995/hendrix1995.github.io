@@ -2,7 +2,31 @@
 
 .main-catchphrase {
     word-break: keep-all;
-    width: 50%;
-    font-size: 5.5em;
-    line-height: 1.5em;
+    width: 68%;
+    font-size: 4em;
+    line-height: 2.5em;
+}
+
+.strong-word {
+    font-size: 7rem;
+}
+
+@include mobile {
+    .main-catchphrase {
+        font-size: 1.5em;
+    }
+
+    .strong-word {
+        font-size: 3rem;
+    }
+}
+
+@include tablet {
+    .main-catchphrase {
+        font-size: 2em;
+    }
+
+    .strong-word {
+        font-size: 4rem;
+    }
 }

@@ -2,7 +2,15 @@
 @import "./components/Header";
 @import "./components/Home";
 @import "./components/About";
-@import "./components/Skils";
+@import "./components/Skills";
+
+header {
+    z-index: 999;
+    background-color: #dd4a68;
+    padding: 15px 60px;
+    position: sticky;
+    top: 0;
+}
 
 body {
     background-color: #dd4a68;
@@ -10,5 +18,5 @@ body {
 }
 
 section {
-    padding: 5.5vw;
+    padding: 12vh 15vw;
 }
