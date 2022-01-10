@@ -195,7 +195,7 @@
 .skills-box-title {
   font-size: 25px;
   background-color: #373a40;
-  padding: 8px 15px;
+  padding: 10px 15px;
 }
 
 .skills-box-content-box {
@@ -266,6 +266,55 @@
   .skills-box-content {
     margin: 15px 0;
   }
+}
+
+.page-project {
+  background-color: #373a40;
+}
+
+.project-container {
+  color: black;
+  background-color: #eeeeee;
+  padding: 18px;
+}
+
+.project-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.project-contents {
+  font-size: 1.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 53%;
+}
+
+.project-thumbnail {
+  width: 568.888px;
+  height: 320px;
+  background-color: #dd4a68;
+}
+
+.project-link-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 header {

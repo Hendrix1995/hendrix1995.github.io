@@ -1,8 +1,10 @@
-@import "./components/PageStyle";
-@import "./components/Header";
-@import "./components/Home";
-@import "./components/About";
-@import "./components/Skills";
+@import "./mixin";
+@import "./view/PageStyle";
+@import "./view/Header";
+@import "./view/Home";
+@import "./view/About";
+@import "./view/Skills";
+@import "./view/Project";
 
 header {
     z-index: 999;

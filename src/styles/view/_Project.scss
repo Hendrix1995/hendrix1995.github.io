@@ -1,0 +1,33 @@
+.page-project {
+    background-color: #373a40;
+}
+
+.project-container {
+    color: black;
+    background-color: #eeeeee;
+    padding: 18px;
+}
+
+.project-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-contents {
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 53%;
+}
+
+.project-thumbnail {
+    width: 568.888px;
+    height: 320px;
+    background-color: #dd4a68;
+}
+
+.project-link-box {
+    display: flex;
+    justify-content: space-between;
+}

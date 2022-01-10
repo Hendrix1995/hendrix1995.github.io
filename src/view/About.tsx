@@ -29,7 +29,7 @@ function About() {
                         기술을 배우고 적용하는 것을 좋아합니다.
                     </p>
                 </div>
-                <img className="profile-img" src={profileImg} alt="profile image" />
+                <img className="profile-img" src={profileImg} alt="profile" />
             </div>
         </section>
     );
