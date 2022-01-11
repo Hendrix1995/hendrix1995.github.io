@@ -1,0 +1,26 @@
+.page-contact {
+    background-color: white;
+    color: #dd4a68;
+}
+
+.contact-link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-text {
+    margin: 1em;
+    font-size: 45px;
+}
+
+.contact-catchphrase {
+    opacity: 0.5;
+    margin: 10% 15%;
+}
+
+.contact-link-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
