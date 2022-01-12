@@ -1,6 +1,9 @@
-import React from "react";
+import { useState } from "react";
 
 function Header() {
+    const isOpenSideMenu = useState(false);
+    const openSideMenuHandler = () => {};
+
     return (
         <header className="header-container">
             <nav className="name-box">Hyeonseong Lim</nav>

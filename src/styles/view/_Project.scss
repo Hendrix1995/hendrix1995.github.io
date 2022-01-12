@@ -9,7 +9,7 @@
 
 .project-title {
     color: white;
-    background-color: #373a40;
+    background-color: #9fa0a3;
     padding: 15px;
     margin-bottom: 0;
 }
@@ -52,6 +52,17 @@
     height: 50px;
     background-color: #dd4a68;
     margin-right: 5px;
+}
+
+.project-list-container {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+
+    .fa-door-closed,
+    .fa-door-open {
+        padding: 2.2rem;
+    }
 }
 
 @include mobile {

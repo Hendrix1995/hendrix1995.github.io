@@ -10,9 +10,8 @@
 
 .about-catchphrase {
     width: 60%;
-    font-size: 30px;
-    word-break: keep-all;
-    line-height: 40px;
+    font-size: 2rem;
+    line-height: 3.112rem;
     margin-right: 30px;
 }
 
@@ -25,7 +24,7 @@
 
 @include mobile {
     .page-container-about {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .about-catchphrase {
@@ -42,12 +41,12 @@
 
 @include tablet {
     .page-container-about {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .about-catchphrase {
         width: 100%;
-        font-size: 20px;
+        font-size: 1.228rem;
     }
 
     .profile-img {

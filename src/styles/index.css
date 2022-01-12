@@ -5,7 +5,7 @@
  *    user zoom.
  */
 html {
-  font-family: sans-serif;
+  font-family: NanumSquare;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -412,9 +412,5 @@ th {
   font-family: "NanumSquare";
   font-weight: 400;
   src: url("../fonts/NanumSquareB.ttf") format("truetype"), url("../fonts/NanumSquareB.woff") format("woff"), url("../fonts/NanumSquareB.woff2") format("woff2");
-}
-
-* {
-  font-family: "NanumSquare";
 }
 /*# sourceMappingURL=index.css.map */

@@ -18,8 +18,10 @@ header {
 body {
     background-color: #dd4a68;
     color: white;
+    word-break: keep-all;
 }
 
 section {
-    padding: 12vh 15vw;
+    padding: 3vh 15vw;
+    min-height: 100vh;
 }

@@ -58,7 +58,8 @@ function Skills() {
                     <div className="skills-box-content-box">
                         <div className="skills-box-content">
                             <img className="skills-box-stack-icon" src={mysql} alt="MySQL" />
-                            <div className="skills-box-stack-info">MySQL (관계형 스키마 디자인, SQL 주요 문법)</div>
+                            <div className="skills-box-stack-info">MySQL</div>
+                            <span className="skills-box-stack-info-details">(관계형 스키마 디자인, SQL 주요 문법)</span>
                         </div>
                     </div>
                 </div>

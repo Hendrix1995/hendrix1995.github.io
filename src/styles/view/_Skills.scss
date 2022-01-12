@@ -55,6 +55,10 @@
     .skills-box-content {
         margin: 10px 0;
     }
+
+    .skills-box-stack-info-details {
+        display: none;
+    }
 }
 
 @include tablet {
