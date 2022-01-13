@@ -24,6 +24,27 @@
     justify-content: space-between;
 }
 
+.go-top-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 100%;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #dd4a68;
+    border-radius: 12px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.go-top-button-icon {
+    position: absolute;
+    font-size: 1.55rem;
+    font-family: "Blacksword";
+    color: black;
+}
+
 @include mobile {
     .contact-text {
         font-size: 1.26rem;

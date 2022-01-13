@@ -1,3 +1,5 @@
+@import "../components/Menu";
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -5,10 +7,17 @@
     font-size: 25px;
 }
 
-.name-box {
+.name {
     margin-right: 40px;
     font-size: 2.112rem;
     min-width: fit-content;
+    cursor: pointer;
+
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        color: black;
+    }
 }
 
 .navigation-container {
@@ -20,6 +29,12 @@
 .navigation-text {
     margin: 0.6rem;
     font-size: 1.112rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        color: black;
+    }
 }
 
 .fa-bars {
@@ -31,8 +46,9 @@
         align-items: center;
     }
 
-    .name-box {
+    .name {
         font-size: 1.4rem;
+        margin-right: 0;
     }
 
     .navigation-container {
@@ -42,10 +58,15 @@
     .fa-bars {
         display: inline-block;
         font-size: 2rem;
+        cursor: pointer;
     }
 }
 
 @include tablet {
+    .name {
+        font-size: 1.8rem;
+    }
+
     .navigation-text {
         margin: 0.6rem;
         font-size: 0.9rem;
