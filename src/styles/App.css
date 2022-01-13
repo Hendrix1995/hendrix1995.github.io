@@ -1,6 +1,8 @@
 .page-title {
   color: #dd4a68;
   font-size: 50px;
+  border-bottom: 5px solid white;
+  padding-bottom: 5px;
 }
 
 .page-container {
@@ -29,6 +31,9 @@
 .name-box {
   margin-right: 40px;
   font-size: 2.112rem;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
 }
 
 .navigation-container {
@@ -287,21 +292,34 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #eeeeee;
   padding: 35px;
+  min-height: 50vh;
+}
+
+@media (max-width: 1300px) {
+  .project-content-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .project-thumbnail {
-  min-width: 370px;
-  min-height: 208.125px;
-  max-width: 370px;
-  max-height: 208.125px;
+  min-width: 480px;
+  min-height: 270px;
+  max-width: 480px;
+  max-height: 270px;
   background-color: #dd4a68;
 }
 
 .project-content {
   color: black;
-  font-size: 18px;
+  font-size: 1.2rem;
   margin: 15px;
 }
 
@@ -356,11 +374,12 @@
     min-height: 95.625px;
     max-height: 95.625px;
   }
-  .project-content-box {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+  .project-content {
+    font-size: 0.8rem;
+  }
+  .project-stack-icon {
+    width: 30px;
+    height: 30px;
   }
 }
 
@@ -371,12 +390,6 @@
     min-height: 208.125px;
     max-width: 370px;
     max-height: 208.125px;
-  }
-  .project-content-box {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
 }
 
@@ -444,6 +457,6 @@ body {
 
 section {
   padding: 3vh 15vw;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 /*# sourceMappingURL=App.css.map */
