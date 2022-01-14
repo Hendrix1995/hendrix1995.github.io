@@ -9,14 +9,48 @@
     align-items: center;
 }
 
+.email-text {
+    font-size: 3rem;
+    margin: 2rem;
+    text-decoration-line: none;
+    color: black;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        color: #dd4a68;
+    }
+}
+
+.contact-content-box {
+    display: flex;
+    align-items: flex-end;
+    font-size: 3rem;
+    margin: 6rem;
+    cursor: pointer;
+
+    .fa-github,
+    .fa-bold,
+    .fa-file {
+        color: black;
+        margin: 0.5rem 1rem;
+    }
+}
+
 .contact-text {
     font-size: 3rem;
-    margin: 6.5rem 1.2rem;
+    color: black;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        color: #dd4a68;
+    }
 }
 
 .contact-catchphrase {
     font-size: 1.112rem;
     opacity: 0.5;
+    margin: 5rem;
 }
 
 .contact-link-box {

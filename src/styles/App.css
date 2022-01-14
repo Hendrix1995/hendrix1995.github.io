@@ -562,14 +562,55 @@
           align-items: center;
 }
 
+.email-text {
+  font-size: 3rem;
+  margin: 2rem;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: black;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.email-text:hover {
+  color: #dd4a68;
+}
+
+.contact-content-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-size: 3rem;
+  margin: 6rem;
+  cursor: pointer;
+}
+
+.contact-content-box .fa-github,
+.contact-content-box .fa-bold,
+.contact-content-box .fa-file {
+  color: black;
+  margin: 0.5rem 1rem;
+}
+
 .contact-text {
   font-size: 3rem;
-  margin: 6.5rem 1.2rem;
+  color: black;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.contact-text:hover {
+  color: #dd4a68;
 }
 
 .contact-catchphrase {
   font-size: 1.112rem;
   opacity: 0.5;
+  margin: 5rem;
 }
 
 .contact-link-box {

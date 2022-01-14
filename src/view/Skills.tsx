@@ -38,7 +38,7 @@ function Skills() {
                 </div>
                 <div className="skills-box">
                     <div className="skills-box-title">Frameworks & Libraries</div>
-                    <Fade delay={70}>
+                    <Fade>
                         <div className="skills-box-content-box">
                             <div className="skills-box-content">
                                 <img className="skills-box-stack-icon" src={react} alt="React" />
@@ -61,7 +61,7 @@ function Skills() {
                 </div>
                 <div className="skills-box">
                     <div className="skills-box-title">DB</div>
-                    <Fade delay={120}>
+                    <Fade>
                         <div className="skills-box-content-box">
                             <div className="skills-box-content">
                                 <img className="skills-box-stack-icon" src={mysql} alt="MySQL" />
@@ -73,7 +73,7 @@ function Skills() {
                 </div>
                 <div className="skills-box">
                     <div className="skills-box-title">Tools</div>
-                    <Fade delay={170}>
+                    <Fade>
                         <div className="skills-box-content-box">
                             <div className="skills-box-content">
                                 <img className="skills-box-stack-icon" src={git} alt="Git" />
