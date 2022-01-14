@@ -18,24 +18,24 @@ function Contact() {
                     <div className="contact-catchphrase">Make world to easy and funny with me!</div>
                 </AttentionSeeker>
                 <div className="contact-link-box">
-                    <div className="contact-content-box" onClick={() => window.open("https://github.com/Hendrix1995", "_blank")}>
-                        <a className="contact-text">
+                    <div className="contact-content-box">
+                        <a className="contact-text" onClick={() => window.open("https://github.com/Hendrix1995", "_blank")}>
                             <i className="fab fa-github" />
                             Github
                         </a>
                     </div>
-                    <div className="contact-content-box" onClick={() => window.open("https://hyeonsi.tistory.com", "_blank")}>
-                        <a className="contact-text">
+                    <div className="contact-content-box">
+                        <a className="contact-text" onClick={() => window.open("https://hyeonsi.tistory.com", "_blank")}>
                             <i className="fas fa-bold" />
                             Blog
                         </a>
                     </div>
-                    <div className="contact-content-box" onClick={() => window.open("https://url.kr/57nytx", "_blank")}>
-                        <a className="contact-text">
+                    <span className="contact-content-box">
+                        <a className="contact-text" onClick={() => window.open("https://url.kr/57nytx", "_blank")}>
                             <i className="fas fa-file" />
                             Resume
                         </a>
-                    </div>
+                    </span>
                 </div>
             </div>
             <div className="go-top-button-container" onMouseEnter={isHoverHandler} onMouseLeave={isHoverHandler}>

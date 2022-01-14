@@ -22,27 +22,26 @@
 }
 
 .contact-content-box {
-    display: flex;
-    align-items: flex-end;
-    cursor: pointer;
-    min-width: fit-content;
-    .fa-github,
-    .fa-bold,
-    .fa-file {
-        color: black;
-        margin: 0.5rem 1rem;
+    &:hover {
+        color: #dd4a68;
     }
 }
 
 .contact-text {
     font-size: 1.5rem;
     color: black;
-    transition: 0.3s ease-in-out;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
 
     &:hover {
         color: #dd4a68;
     }
+}
+
+.fa-github,
+.fa-bold,
+.fa-file {
+    margin-right: 0.5rem;
 }
 
 .contact-catchphrase {
@@ -82,20 +81,19 @@
 @include mobile {
     .contact-text {
         font-size: 1rem;
-        margin: 1rem 0.8rem;
     }
 
     .email-text {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     .contact-catchphrase {
-        font-size: 0.68rem;
-        margin: 2rem;
+        font-size: 0.8rem;
+        margin: 4rem 0;
     }
 
     .go-top-button-container {
-        left: 62vw;
+        left: 63vw;
         top: 15vh;
     }
 }

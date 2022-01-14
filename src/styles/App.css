@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .page-title {
   color: #dd4a68;
   font-size: 50px;
@@ -449,6 +450,138 @@
   }
 }
 
+.fa-caret-square-left {
+  left: -36px;
+  font-size: 2rem;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+}
+
+.fa-caret-square-left:before {
+  line-height: 1;
+  opacity: 0.75;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fa-caret-square-left:hover {
+  opacity: 0.5;
+}
+
+.fa-caret-square-right {
+  right: -28px;
+  font-size: 2rem;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+}
+
+.fa-caret-square-right:before {
+  line-height: 1;
+  opacity: 0.75;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fa-caret-square-right:hover {
+  opacity: 0.5;
+}
+
+.custom-dots {
+  position: absolute;
+  bottom: -25px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.custom-dots li {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.custom-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 40px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.custom-dots li button:before {
+  font-family: "slick";
+  font-size: 2rem;
+  line-height: 20px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  content: "✉️";
+  text-align: center;
+  opacity: 0.9;
+  color: gray;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.custom-dots li button:hover {
+  opacity: 0.65;
+}
+
+.custom-dots li.slick-active button:before {
+  opacity: 1;
+  color: #ffffff;
+  content: "📨";
+}
+
+.custom-dots li.slick-active button:hover {
+  opacity: 1;
+}
+
 .page-project {
   background-color: #373a40;
 }
@@ -605,36 +738,26 @@
   color: #dd4a68;
 }
 
-.contact-content-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  cursor: pointer;
-  min-width: -webkit-fit-content;
-  min-width: -moz-fit-content;
-  min-width: fit-content;
-}
-
-.contact-content-box .fa-github,
-.contact-content-box .fa-bold,
-.contact-content-box .fa-file {
-  color: black;
-  margin: 0.5rem 1rem;
+.contact-content-box:hover {
+  color: #dd4a68;
 }
 
 .contact-text {
   font-size: 1.5rem;
   color: black;
+  cursor: pointer;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-  cursor: pointer;
 }
 
 .contact-text:hover {
   color: #dd4a68;
+}
+
+.fa-github,
+.fa-bold,
+.fa-file {
+  margin-right: 0.5rem;
 }
 
 .contact-catchphrase {
@@ -683,17 +806,16 @@
 @media (min-width: 320px) and (max-width: 767px) {
   .contact-text {
     font-size: 1rem;
-    margin: 1rem 0.8rem;
   }
   .email-text {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
   .contact-catchphrase {
-    font-size: 0.68rem;
-    margin: 2rem;
+    font-size: 0.8rem;
+    margin: 4rem 0;
   }
   .go-top-button-container {
-    left: 62vw;
+    left: 63vw;
     top: 15vh;
   }
 }
