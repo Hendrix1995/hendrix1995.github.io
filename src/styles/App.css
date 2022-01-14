@@ -331,6 +331,10 @@
   background-color: #9fa0a3;
 }
 
+.page-skills h1 {
+  margin-bottom: 1.2rem;
+}
+
 .skills-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -339,6 +343,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.skills-box-learning {
+  margin-top: 30px;
 }
 
 .skills-box-title {
@@ -354,12 +362,21 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  padding: 18px 15px;
+  padding: 0.65rem 1rem;
   background-color: #eeeeee;
 }
 
+@media (max-width: 1470px) {
+  .skills-box-content-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .skills-box-content {
-  margin-right: 40px;
+  margin: 0.012rem 0.8rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -369,6 +386,18 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-shadow: gray 3px 3px 3px;
+          box-shadow: gray 3px 3px 3px;
+  border-radius: 15px;
+  padding: 0.5rem;
+  background-color: white;
+  cursor: default;
+}
+
+@media (max-width: 1470px) {
+  .skills-box-content {
+    margin: 0.5rem;
+  }
 }
 
 .skills-box-stack-icon {

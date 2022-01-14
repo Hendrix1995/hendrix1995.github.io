@@ -1,10 +1,18 @@
 .page-skills {
     background-color: #9fa0a3;
+
+    h1 {
+        margin-bottom: 1.2rem;
+    }
 }
 
 .skills-box {
     display: flex;
     flex-direction: column;
+}
+
+.skills-box-learning {
+    margin-top: 30px;
 }
 
 .skills-box-title {
@@ -16,15 +24,28 @@
 .skills-box-content-box {
     display: flex;
     justify-content: flex-start;
-    padding: 18px 15px;
+    padding: 0.65rem 1rem;
     background-color: #eeeeee;
+
+    @media (max-width: 1470px) {
+        flex-direction: column;
+    }
 }
 
 .skills-box-content {
-    margin-right: 40px;
+    margin: 0.012rem 0.8rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    box-shadow: gray 3px 3px 3px;
+    border-radius: 15px;
+    padding: 0.5rem;
+    background-color: white;
+    cursor: default;
+
+    @media (max-width: 1470px) {
+        margin: 0.5rem;
+    }
 }
 
 .skills-box-stack-icon {
