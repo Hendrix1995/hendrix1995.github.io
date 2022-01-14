@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { AttentionSeeker } from "react-awesome-reveal";
 
 function Contact() {
     const [isHover, setIsHover] = useState(false);
@@ -13,7 +14,9 @@ function Contact() {
                 <a className="email-text" href="mailto:hgud55@naver.com">
                     hgud55@naver.com
                 </a>
-                <div className="contact-catchphrase">Make world to easy and funny with me!</div>
+                <AttentionSeeker effect={"pulse"}>
+                    <div className="contact-catchphrase">Make world to easy and funny with me!</div>
+                </AttentionSeeker>
                 <div className="contact-link-box">
                     <div className="contact-content-box" onClick={() => window.open("https://github.com/Hendrix1995", "_blank")}>
                         <a className="contact-text">

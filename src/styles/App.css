@@ -134,7 +134,7 @@
             align-items: center;
   }
   .name {
-    font-size: 1.4rem;
+    font-size: 1rem;
     margin-right: 0;
   }
   .navigation-container {
@@ -583,9 +583,10 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  font-size: 3rem;
-  margin: 6rem;
   cursor: pointer;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
 }
 
 .contact-content-box .fa-github,
@@ -596,7 +597,7 @@
 }
 
 .contact-text {
-  font-size: 3rem;
+  font-size: 1.5rem;
   color: black;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
@@ -614,12 +615,12 @@
 }
 
 .contact-link-box {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .go-top-button-container {
@@ -633,7 +634,8 @@
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  left: 100%;
+  left: 75vw;
+  top: 25vh;
   width: 50px;
   height: 50px;
   border: 3px solid #dd4a68;
@@ -651,11 +653,19 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .contact-text {
-    font-size: 1.26rem;
-    margin: 30px 10px;
+    font-size: 1rem;
+    margin: 1rem 0.8rem;
+  }
+  .email-text {
+    font-size: 2rem;
   }
   .contact-catchphrase {
-    font-size: 0.9rem;
+    font-size: 0.68rem;
+    margin: 2rem;
+  }
+  .go-top-button-container {
+    left: 62vw;
+    top: 15vh;
   }
 }
 
