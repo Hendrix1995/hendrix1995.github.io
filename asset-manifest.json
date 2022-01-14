@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.e1a64460.css",
-    "main.js": "/static/js/main.ad148b70.js",
+    "main.css": "/static/css/main.b99b2423.css",
+    "main.js": "/static/js/main.f410fa3c.js",
     "static/media/NanumSquareL.ttf": "/static/media/NanumSquareL.ace03365daa3d33bdec6.ttf",
     "static/media/NanumSquareB.ttf": "/static/media/NanumSquareB.ebe0aa17b7967cd61f16.ttf",
     "static/media/NanumSquareR.ttf": "/static/media/NanumSquareR.924c33f60f994924964c.ttf",
     "static/media/NanumSquareL.woff": "/static/media/NanumSquareL.9b306ae5a74002a98a7a.woff",
     "static/media/NanumSquareB.woff": "/static/media/NanumSquareB.6f206ca93f6fde066ff5.woff",
     "static/media/NanumSquareR.woff": "/static/media/NanumSquareR.60ca23d41b4ae9147b73.woff",
+    "static/media/styled-components-icon.png": "/static/media/styled-components-icon.0fefccb0a398bba44766.png",
     "static/media/NanumSquareB.woff2": "/static/media/NanumSquareB.381c2a3fd207c4f5dd30.woff2",
     "static/media/NanumSquareL.woff2": "/static/media/NanumSquareL.2b523bf79bea0b0cfc40.woff2",
     "static/media/NanumSquareR.woff2": "/static/media/NanumSquareR.e7680d79a200d30362da.woff2",
@@ -23,13 +24,18 @@
     "static/media/nodejs-icon.png": "/static/media/nodejs-icon.007e99f68b718e476aba.png",
     "static/media/css-icon.png": "/static/media/css-icon.02d225c7df0b28341d8d.png",
     "static/media/git-icon.png": "/static/media/git-icon.fd1a85d6be07fd88fb05.png",
+    "static/media/notion-icon.png": "/static/media/notion-icon.443e38e6945f144da199.png",
     "static/media/html-icon.png": "/static/media/html-icon.cfb2ba4a6b1c3de295bc.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
-    "main.e1a64460.css.map": "/static/css/main.e1a64460.css.map",
-    "main.ad148b70.js.map": "/static/js/main.ad148b70.js.map"
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "main.b99b2423.css.map": "/static/css/main.b99b2423.css.map",
+    "main.f410fa3c.js.map": "/static/js/main.f410fa3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1a64460.css",
-    "static/js/main.ad148b70.js"
+    "static/css/main.b99b2423.css",
+    "static/js/main.f410fa3c.js"
   ]
 }
