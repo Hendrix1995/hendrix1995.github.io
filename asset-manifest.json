@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.b99b2423.css",
-    "main.js": "/static/js/main.f410fa3c.js",
+    "main.css": "/static/css/main.6075351c.css",
+    "main.js": "/static/js/main.38fc8afd.js",
     "static/media/NanumSquareL.ttf": "/static/media/NanumSquareL.ace03365daa3d33bdec6.ttf",
     "static/media/NanumSquareB.ttf": "/static/media/NanumSquareB.ebe0aa17b7967cd61f16.ttf",
     "static/media/NanumSquareR.ttf": "/static/media/NanumSquareR.924c33f60f994924964c.ttf",
     "static/media/NanumSquareL.woff": "/static/media/NanumSquareL.9b306ae5a74002a98a7a.woff",
     "static/media/NanumSquareB.woff": "/static/media/NanumSquareB.6f206ca93f6fde066ff5.woff",
     "static/media/NanumSquareR.woff": "/static/media/NanumSquareR.60ca23d41b4ae9147b73.woff",
+    "static/media/figma-icon.png": "/static/media/figma-icon.bf6cf2cacd9650340148.png",
     "static/media/styled-components-icon.png": "/static/media/styled-components-icon.0fefccb0a398bba44766.png",
     "static/media/NanumSquareB.woff2": "/static/media/NanumSquareB.381c2a3fd207c4f5dd30.woff2",
     "static/media/NanumSquareL.woff2": "/static/media/NanumSquareL.2b523bf79bea0b0cfc40.woff2",
@@ -31,11 +32,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.b99b2423.css.map": "/static/css/main.b99b2423.css.map",
-    "main.f410fa3c.js.map": "/static/js/main.f410fa3c.js.map"
+    "main.6075351c.css.map": "/static/css/main.6075351c.css.map",
+    "main.38fc8afd.js.map": "/static/js/main.38fc8afd.js.map"
   },
   "entrypoints": [
-    "static/css/main.b99b2423.css",
-    "static/js/main.f410fa3c.js"
+    "static/css/main.6075351c.css",
+    "static/js/main.38fc8afd.js"
   ]
 }
