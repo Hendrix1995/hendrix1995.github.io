@@ -377,7 +377,7 @@
 }
 
 .skills-box-content {
-  margin: 0.012rem 0.8rem;
+  margin: 0.012rem 0.7rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -390,7 +390,7 @@
   -webkit-box-shadow: gray 3px 3px 3px;
           box-shadow: gray 3px 3px 3px;
   border-radius: 15px;
-  padding: 0.5rem;
+  padding: 0.35rem 0.85rem;
   background-color: white;
   cursor: default;
 }

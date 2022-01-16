@@ -11,6 +11,7 @@ import nodejs from "../img/stack-icon/nodejs-icon.png";
 import express from "../img/stack-icon/express-icon.png";
 import mysql from "../img/stack-icon/mysql-icon.png";
 import git from "../img/stack-icon/git-icon.png";
+import figma from "../img/stack-icon/figma-icon.png";
 import notion from "../img/stack-icon/notion-icon.png";
 import aws from "../img/stack-icon/aws-icon.png";
 import typescript from "../img/stack-icon/typescript-icon.png";
@@ -72,8 +73,10 @@ function Skills() {
                         <Fade>
                             <div className="skills-box-content">
                                 <img className="skills-box-stack-icon" src={mysql} alt="MySQL" />
-                                <div className="skills-box-stack-info">MySQL</div>
-                                <span className="skills-box-stack-info-details">(관계형 스키마 디자인, SQL 주요 문법)</span>
+                                <div className="skills-box-stack-info-container">
+                                    <div className="skills-box-stack-info">MySQL</div>
+                                    <div className="skills-box-stack-info-details">(관계형 스키마 디자인, SQL 주요 문법)</div>
+                                </div>
                             </div>
                         </Fade>
                     </div>
@@ -87,13 +90,19 @@ function Skills() {
                                 <div className="skills-box-stack-info">Git</div>
                             </div>
                             <div className="skills-box-content">
+                                <img className="skills-box-stack-icon" src={figma} alt="Figma" />
+                                <div className="skills-box-stack-info">Figma</div>
+                            </div>
+                            <div className="skills-box-content">
                                 <img className="skills-box-stack-icon" src={notion} alt="Notion" />
                                 <div className="skills-box-stack-info">Notion</div>
                             </div>
                             <div className="skills-box-content">
                                 <img className="skills-box-stack-icon" src={aws} alt="AWS" />
-                                <div className="skills-box-stack-info">AWS</div>
-                                <span className="skills-box-stack-info-details">(EC2, RDS, S3를 이용한 배포 경험, PipeLine을 이용한 간단한 배포 자동화 경험)</span>
+                                <div className="skills-box-stack-info-container">
+                                    <div className="skills-box-stack-info">AWS</div>
+                                    <div className="skills-box-stack-info-details">(EC2, RDS, S3를 이용한 배포 경험, PipeLine을 이용한 간단한 배포 자동화 경험)</div>
+                                </div>
                             </div>
                         </Fade>
                     </div>
@@ -104,7 +113,7 @@ function Skills() {
                         <Fade>
                             <div className="skills-box-content">
                                 <img className="skills-box-stack-icon" src={typescript} alt="Typescript" />
-                                <div className="skills-box-stack-info">Typescript</div>
+                                <div className="skills-box-stack-info">TypeScript</div>
                             </div>
                         </Fade>
                     </div>

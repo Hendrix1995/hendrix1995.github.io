@@ -15,7 +15,7 @@ function Contact() {
                     hgud55@naver.com
                 </a>
                 <AttentionSeeker effect={"pulse"}>
-                    <div className="contact-catchphrase">Make world to easy and funny with me!</div>
+                    <div className="contact-catchphrase">Let's Make A Easy And Fun World With Me!</div>
                 </AttentionSeeker>
                 <div className="contact-link-box">
                     <div className="contact-content-box">
