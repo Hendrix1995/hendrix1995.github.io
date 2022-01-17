@@ -6,7 +6,7 @@ import css from "../img/stack-icon/css-icon.png";
 import html from "../img/stack-icon/html-icon.png";
 import react from "../img/stack-icon/react-icon.png";
 import sass from "../img/stack-icon/sass-icon.png";
-import styledComponents from "../img/stack-icon/styled-components-icon.png";
+import styled_components from "../img/stack-icon/styled-components-icon.png";
 import nodejs from "../img/stack-icon/nodejs-icon.png";
 import express from "../img/stack-icon/express-icon.png";
 import mysql from "../img/stack-icon/mysql-icon.png";
@@ -53,7 +53,7 @@ function Skills() {
                                 <div className="skills-box-stack-info">SASS / SCSS</div>
                             </div>
                             <div className="skills-box-content">
-                                <img className="skills-box-stack-icon" src={styledComponents} alt="styled-components" />
+                                <img className="skills-box-stack-icon" src={styled_components} alt="styled-components" />
                                 <div className="skills-box-stack-info">styled-components</div>
                             </div>
                             <div className="skills-box-content">

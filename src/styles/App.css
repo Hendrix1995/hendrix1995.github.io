@@ -530,7 +530,7 @@
   display: inline-block;
   width: 40px;
   height: 20px;
-  margin: 0 5px;
+  margin: 0 10px;
   padding: 0;
   cursor: pointer;
 }
@@ -557,7 +557,7 @@
   line-height: 20px;
   position: absolute;
   top: 10px;
-  left: 20px;
+  left: 8px;
   width: 20px;
   height: 20px;
   content: "✉️";
@@ -610,10 +610,10 @@
           align-items: center;
   background-color: #eeeeee;
   padding: 35px;
-  min-height: 50vh;
+  min-height: 54vh;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1470px) {
   .project-content-box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -633,7 +633,27 @@
 .project-content {
   color: black;
   font-size: 1.2rem;
-  margin: 15px;
+  margin: 15px 50px;
+}
+
+.project-content li {
+  padding: 0.2rem 0;
+}
+
+.project-summary p {
+  margin: 0;
+}
+
+@media (max-width: 1470px) {
+  .project-summary {
+    text-align: center;
+  }
+}
+
+.project-text-title {
+  padding-bottom: 3px;
+  margin-bottom: 0;
+  border-bottom: 3px solid #dd4a68;
 }
 
 .project-stack-container {
@@ -655,13 +675,46 @@
       -ms-flex-align: center;
           align-items: center;
   margin: 15px;
+  background-color: white;
+  -webkit-box-shadow: gray 1px 1px 1px;
+          box-shadow: gray 1px 1px 1px;
+  border-radius: 15px;
+  padding: 0.2rem 0.8rem;
+}
+
+.project-stack-box .project-text {
+  font-size: 12px;
 }
 
 .project-stack-icon {
-  width: 50px;
-  height: 50px;
-  background-color: #dd4a68;
+  width: 25px;
+  height: 25px;
   margin-right: 5px;
+}
+
+.project-link-container {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.project-link-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  cursor: pointer;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+}
+
+.project-link-box:hover {
+  color: #dd4a68;
 }
 
 .project-list-container {
@@ -690,9 +743,46 @@
   .project-content {
     font-size: 0.8rem;
   }
+  .project-stack-box {
+    margin: 0.5rem;
+  }
+  .project-stack-box .project-stack-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .project-stack-box .project-text {
+    font-size: 0.5rem;
+  }
   .project-stack-icon {
     width: 30px;
     height: 30px;
+  }
+  .project-summary {
+    font-size: 0.75rem;
+  }
+  ul {
+    font-size: 0.5rem;
+    padding: 0.5rem;
+  }
+  .project-link-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .project-link-box {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .project-link-box .project-text {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+  .project-link-box .fa-globe-asia,
+  .project-link-box .fa-github,
+  .project-link-box .fa-bold {
+    font-size: 1rem;
   }
 }
 
@@ -726,7 +816,7 @@
 
 .email-text {
   font-size: 3rem;
-  margin: 2rem;
+  margin: 2rem 2rem 0 2rem;
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
   color: black;
@@ -756,7 +846,8 @@
 
 .fa-github,
 .fa-bold,
-.fa-file {
+.fa-file,
+.fa-globe-asia {
   margin-right: 0.5rem;
 }
 
