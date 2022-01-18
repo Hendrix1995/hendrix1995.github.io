@@ -11,7 +11,7 @@ function Contact() {
         <section className="page-contact">
             <h1 className="page-title">Contact</h1>
             <div className="contact-link-container">
-                <a className="email-text" href="mailto:hgud55@naver.com">
+                <a className="email-text" href="mailto:hgud55@gmail.com">
                     hgud55@gmail.com
                 </a>
                 <AttentionSeeker effect={"pulse"}>

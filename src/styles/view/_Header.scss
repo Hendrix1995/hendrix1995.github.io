@@ -27,7 +27,7 @@
 }
 
 .navigation-text {
-    margin: 0.6rem;
+    margin: 0.1rem 0.8rem;
     font-size: 1.112rem;
     cursor: pointer;
     transition: 0.3s ease-in-out;
@@ -64,11 +64,11 @@
 
 @include tablet {
     .name {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .navigation-text {
-        margin: 0.6rem;
+        margin: 0.1rem 0.5rem;
         font-size: 0.9rem;
     }
 }

@@ -113,7 +113,7 @@
 }
 
 .navigation-text {
-  margin: 0.6rem;
+  margin: 0.1rem 0.8rem;
   font-size: 1.112rem;
   cursor: pointer;
   -webkit-transition: 0.3s ease-in-out;
@@ -150,15 +150,15 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .name {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   .navigation-text {
-    margin: 0.6rem;
+    margin: 0.1rem 0.5rem;
     font-size: 0.9rem;
   }
 }
 
-.home-page {
+.page-home {
   word-break: keep-all;
   width: 68%;
 }
@@ -602,14 +602,14 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   background-color: #eeeeee;
-  padding: 35px;
+  padding: 20px;
   min-height: 54vh;
 }
 
@@ -623,21 +623,23 @@
 }
 
 .project-thumbnail {
-  min-width: 480px;
-  min-height: 270px;
-  max-width: 480px;
-  max-height: 270px;
-  background-color: #dd4a68;
+  min-width: 540px;
+  min-height: 303.75px;
+  max-width: 540px;
+  max-height: 303.75px;
+  -webkit-box-shadow: gray 5px 5px 5px;
+          box-shadow: gray 5px 5px 5px;
+  border-radius: 15px;
 }
 
 .project-content {
   color: black;
   font-size: 1.2rem;
-  margin: 15px 50px;
+  margin: 15px 30px;
 }
 
 .project-content li {
-  padding: 0.2rem 0;
+  padding: 0.8rem 0;
 }
 
 .project-summary p {
@@ -735,10 +737,10 @@
 @media (min-width: 320px) and (max-width: 767px) {
   .project-thumbnail {
     margin: 0 auto;
-    min-width: 170px;
-    max-width: 170px;
-    min-height: 95.625px;
-    max-height: 95.625px;
+    min-width: 220px;
+    max-width: 220px;
+    min-height: 123.75px;
+    max-height: 123.75px;
   }
   .project-content {
     font-size: 0.8rem;

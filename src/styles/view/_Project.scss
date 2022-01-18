@@ -18,10 +18,10 @@
 
 .project-content-box {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     background-color: #eeeeee;
-    padding: 35px;
+    padding: 20px;
     min-height: 54vh;
 
     @media (max-width: 1470px) {
@@ -30,20 +30,21 @@
 }
 
 .project-thumbnail {
-    min-width: 480px;
-    min-height: 270px;
-    max-width: 480px;
-    max-height: 270px;
-    background-color: #dd4a68;
+    min-width: 540px;
+    min-height: 303.75px;
+    max-width: 540px;
+    max-height: 303.75px;
+    box-shadow: gray 5px 5px 5px;
+    border-radius: 15px;
 }
 
 .project-content {
     color: black;
     font-size: 1.2rem;
-    margin: 15px 50px;
+    margin: 15px 30px;
 
     li {
-        padding: 0.2rem 0;
+        padding: 0.8rem 0;
     }
 }
 
@@ -120,10 +121,10 @@
 @include mobile {
     .project-thumbnail {
         margin: 0 auto;
-        min-width: 170px;
-        max-width: 170px;
-        min-height: 95.625px;
-        max-height: 95.625px;
+        min-width: 220px;
+        max-width: 220px;
+        min-height: 123.75px;
+        max-height: 123.75px;
     }
 
     .project-content {

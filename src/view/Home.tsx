@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal";
 
 function Home() {
     return (
-        <section className="home-page">
+        <section className="page-home">
             <Fade cascade delay={100}>
                 <div className="main-catchphrase">
                     <span className="strong-word">쉽고 재미있는 세상</span>을 만들기 위해

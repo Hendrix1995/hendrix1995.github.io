@@ -15,6 +15,9 @@ function Header() {
                 Hyeonseong Lim/@Hendrix
             </nav>
             <div className="navigation-container">
+                <Link to="page-home" smooth={true}>
+                    <nav className="navigation-text">Home</nav>
+                </Link>
                 <Link to="page-about" smooth={true}>
                     <nav className="navigation-text">About</nav>
                 </Link>
