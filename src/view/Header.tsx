@@ -15,9 +15,9 @@ function Header() {
                 Hyeonseong Lim/@Hendrix
             </nav>
             <div className="navigation-container">
-                <Link to="page-home" smooth={true}>
-                    <nav className="navigation-text">Home</nav>
-                </Link>
+                <nav className="navigation-text" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+                    Home
+                </nav>
                 <Link to="page-about" smooth={true}>
                     <nav className="navigation-text">About</nav>
                 </Link>

@@ -161,6 +161,7 @@
 .page-home {
   word-break: keep-all;
   width: 68%;
+  padding: 3vh 15vw;
 }
 
 .main-catchphrase {
