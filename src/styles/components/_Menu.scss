@@ -1,6 +1,5 @@
 .menu-backdrop {
     position: fixed;
-    z-index: 999;
     top: 0;
     left: 0;
     bottom: 0;
@@ -9,35 +8,62 @@
     cursor: pointer;
 }
 
+.menu-backdrop-close {
+    display: none;
+}
+
 .menu-container {
-    position: fixed;
-    top: 5.5vh;
-    border: 2px solid white;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    border: 3px solid #dd4a68;
     border-left: none;
     border-radius: 0 15px 15px 0;
-    padding: 6px;
-    animation: slideIn;
-    animation-duration: 1s;
-    animation-delay: -0.6s;
-    animation-timing-function: ease all;
-    background-color: #dd4a68;
+    padding: 15px;
+    background-color: #fff;
+    height: 96.3vh;
+    width: 140px;
+    color: black;
+    transition: 0.8s ease all;
+}
+
+.menu-container-close {
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: -180px;
+    border: 3px solid #dd4a68;
+    border-left: none;
+    border-radius: 0 15px 15px 0;
+    padding: 15px;
+    background-color: #fff;
+    height: 96.3vh;
+    width: 140px;
+    color: black;
+    transition: 0.8s ease all;
+}
+
+.menu-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .go-top-button-container {
+        cursor: default;
+        left: 0;
+        top: 0;
+        margin-right: 5px;
+    }
 }
 
 .menu-contents {
     font-size: 1.2rem;
-    margin: 15px;
+    margin: 2rem 0.5rem;
     transition: 0.3s ease-in-out;
+    cursor: pointer;
 
     &:hover {
-        color: black;
-    }
-}
-
-@keyframes slideIn {
-    from {
-        left: -400px;
-    }
-    to {
-        left: 0;
+        color: #dd4a68;
     }
 }

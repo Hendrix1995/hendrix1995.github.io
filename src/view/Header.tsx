@@ -31,7 +31,7 @@ function Header() {
                     <nav className="navigation-text">Contact</nav>
                 </Link>
             </div>
-            {isOpenMenu ? <Menu openMenuHandler={openMenuHandler} /> : null}
+            <Menu isOpenMenu={isOpenMenu} openMenuHandler={openMenuHandler} />
         </header>
     );
 }
