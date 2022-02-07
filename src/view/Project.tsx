@@ -78,6 +78,12 @@ function Project() {
                                     </a>
                                 </div>
                                 <div className="project-link-box">
+                                    <a className="project-text" onClick={() => window.open("https://www.notion.so/9d33d82100c94dc5bc999d1304113822", "_blank")}>
+                                        <i className="fas fa-file-prescription" />
+                                        소개(Notion)
+                                    </a>
+                                </div>
+                                <div className="project-link-box">
                                     <a className="project-text" onClick={() => window.open("https://hyeonsi.tistory.com/109?category=905692", "_blank")}>
                                         <i className="fas fa-bold" />
                                         블로그 회고
